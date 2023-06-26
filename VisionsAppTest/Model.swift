@@ -6,3 +6,18 @@
 //
 
 import Foundation
+
+
+class recognizedContent: ObservableObject {
+    @Published var items = [TextItem]()
+}
+
+class TextItem: Identifiable {
+    var id: String
+    // stores reconized texts into a string from the id variable
+    var text: String = ""
+    
+    init() {
+        id = UUID().uuidString
+    }
+}

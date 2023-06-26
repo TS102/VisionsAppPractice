@@ -14,6 +14,9 @@
 		3E2316442A49D22C00FDEDC4 /* VisionsAppTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2316432A49D22C00FDEDC4 /* VisionsAppTestTests.swift */; };
 		3E23164E2A49D22C00FDEDC4 /* VisionsAppTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E23164D2A49D22C00FDEDC4 /* VisionsAppTestUITests.swift */; };
 		3E2316502A49D22C00FDEDC4 /* VisionsAppTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E23164F2A49D22C00FDEDC4 /* VisionsAppTestUITestsLaunchTests.swift */; };
+		3E23165D2A49D31F00FDEDC4 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E23165C2A49D31F00FDEDC4 /* ScannerView.swift */; };
+		3E23165F2A49DF8300FDEDC4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E23165E2A49DF8300FDEDC4 /* Model.swift */; };
+		3E2316612A49E10C00FDEDC4 /* TextRecognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2316602A49E10C00FDEDC4 /* TextRecognition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		3E2316492A49D22C00FDEDC4 /* VisionsAppTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionsAppTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E23164D2A49D22C00FDEDC4 /* VisionsAppTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionsAppTestUITests.swift; sourceTree = "<group>"; };
 		3E23164F2A49D22C00FDEDC4 /* VisionsAppTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionsAppTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3E23165C2A49D31F00FDEDC4 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		3E23165E2A49DF8300FDEDC4 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		3E2316602A49E10C00FDEDC4 /* TextRecognition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				3E2316322A49D22B00FDEDC4 /* VisionsAppTestApp.swift */,
 				3E2316342A49D22B00FDEDC4 /* ContentView.swift */,
+				3E23165C2A49D31F00FDEDC4 /* ScannerView.swift */,
+				3E23165E2A49DF8300FDEDC4 /* Model.swift */,
+				3E2316602A49E10C00FDEDC4 /* TextRecognition.swift */,
 				3E2316362A49D22C00FDEDC4 /* Assets.xcassets */,
 				3E2316382A49D22C00FDEDC4 /* Preview Content */,
 			);
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E23165D2A49D31F00FDEDC4 /* ScannerView.swift in Sources */,
+				3E2316612A49E10C00FDEDC4 /* TextRecognition.swift in Sources */,
 				3E2316352A49D22B00FDEDC4 /* ContentView.swift in Sources */,
 				3E2316332A49D22B00FDEDC4 /* VisionsAppTestApp.swift in Sources */,
+				3E23165F2A49DF8300FDEDC4 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,8 +429,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"VisionsAppTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 2NZ598YJKN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is \nrequired to use this app ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -445,8 +459,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"VisionsAppTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 2NZ598YJKN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is \nrequired to use this app ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
